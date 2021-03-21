@@ -5,4 +5,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Server\ServerLibrary\ServerLibrary.csproj" />
+    <ProjectReference Include="..\Demo.Proxy\Demo.Proxy.csproj" />
+  </ItemGroup>
+
 </Project>
